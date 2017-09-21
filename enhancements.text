@@ -1,0 +1,5 @@
+Possible enhancements:
+1. Write more tests to test threadsafe behaviour for multiple transfers between accounts
+ at the same time e.g. A to B, A to C, B to C, C to A.
+2. Validations can be moved in one validator which can be injected in controller and can return
+response before even it gets to Service layer.
